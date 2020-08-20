@@ -75,11 +75,11 @@ target the elements with a class of card and set the following:
   margin: 2.5%;
   padding-top: 15%;
   float: left;
-  background-color: white;
   text-align: center;
   color: black;
   background-size: contain;
-  background: no-repeat;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 
 /*
@@ -95,7 +95,7 @@ target the element with the id of hero and set the following
   width: 100%;
   height: 450px;
   background-size: cover;
-  background: no-repeat;
+  background-repeat: no-repeat;
   background-image: url(../images/travel_hero.jpg);
   background-attachment: fixed;
 }
